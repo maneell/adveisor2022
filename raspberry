@@ -1,0 +1,10 @@
+
+# Spielfeld als Dictionary
+spielfeld_rp = {}
+alphabet = ["A","B","C","D","E","F","G","H"]
+for i in range(8):
+    for j in range(8):
+        spielfeld_rp[alphabet[i]+str(j+1)] = 0 
+
+#Zur Kontrolle des Spielfelde:
+#print(spielfeld_rp)
